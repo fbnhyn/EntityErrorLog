@@ -1,0 +1,16 @@
+{
+  "name": "EntityErrorLog",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Show all error logs of the currenty entity.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icons/disabled128.png"
+  },
+  "action": {
+    "default_title": "Show error logs of this entity"
+  }
+}

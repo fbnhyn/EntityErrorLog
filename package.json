@@ -1,0 +1,21 @@
+{
+  "name": "entityerrorlog",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.config.js",
+    "watch": "onchange 'src/**/*.ts' -- npm run build"
+  },
+  "keywords": [],
+  "author": "Fabian Heyne",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.227",
+    "copy-webpack-plugin": "^11.0.0",
+    "onchange": "^7.1.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.3",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
