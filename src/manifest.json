@@ -3,7 +3,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "description": "Show all error logs of the currenty entity.",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["tabs","activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
   },
