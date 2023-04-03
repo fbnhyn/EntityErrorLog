@@ -1,3 +1,3 @@
 npm install
-build
+npmm run build
 load extension from dist folder
